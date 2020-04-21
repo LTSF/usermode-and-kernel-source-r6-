@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Auth\tool.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\sha256.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato_demo.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato_draw.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato_impl_dx9.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato_impl_win32.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCalls\Pato_widgets.cpp">
+      <Filter>MenuCalls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="kernel.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="pattern.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="Auth\tool.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\sha256.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\imconfig.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\imstb_rectpack.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\imstb_textedit.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\imstb_truetype.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\Pato.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\Pato_impl_dx9.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\Pato_impl_win32.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCalls\Pato_internal.h">
+      <Filter>MenuCalls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MenuCalls">
+      <UniqueIdentifier>{c9ccc7ac-02e1-4b47-affb-6053f9952e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{6fe057ea-4d04-484d-82b4-5fba86fae7a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

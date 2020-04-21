@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pato">
+      <UniqueIdentifier>{99a21301-3340-4eb2-9284-cf0281034ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{d19c684c-4830-4de7-8b7c-48ffe118ae3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato_widgets.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato_impl_win32.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato_impl_dx9.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato_draw.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato_demo.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="pato\Pato.cpp">
+      <Filter>Pato</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\sha256.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\tool.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pattern.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\Pato_internal.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\Pato_impl_win32.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\Pato_impl_dx9.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\Pato.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\imstb_truetype.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\imstb_textedit.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\imstb_rectpack.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="pato\imconfig.h">
+      <Filter>Pato</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\sha256.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\tool.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
