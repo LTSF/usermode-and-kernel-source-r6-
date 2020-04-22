@@ -1,0 +1,18 @@
+﻿  Building 'image' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  driver.cpp
+  cache_table.cpp
+  module.cpp
+  pattern.cpp
+  virtual.cpp
+  process.cpp
+  defines.cpp
+  random.cpp
+  version.cpp
+  Generating code
+  Finished generating code
+libtitanhook.lib(hde64.obj) : warning LNK4099: PDB 'libtitanhook.pdb' was not found with 'libtitanhook.lib(hde64.obj)' or at 'C:\Users\imjus\Downloads\noway\bin\libtitanhook.pdb'; linking object as if no debug info
+libtitanhook.lib(img.obj) : warning LNK4099: PDB 'libtitanhook.pdb' was not found with 'libtitanhook.lib(img.obj)' or at 'C:\Users\imjus\Downloads\noway\bin\libtitanhook.pdb'; linking object as if no debug info
+libtitanhook.lib(mm.obj) : warning LNK4099: PDB 'libtitanhook.pdb' was not found with 'libtitanhook.lib(mm.obj)' or at 'C:\Users\imjus\Downloads\noway\bin\libtitanhook.pdb'; linking object as if no debug info
+libtitanhook.lib(stdafx.obj) : warning LNK4099: PDB 'libtitanhook.pdb' was not found with 'libtitanhook.lib(stdafx.obj)' or at 'C:\Users\imjus\Downloads\noway\bin\libtitanhook.pdb'; linking object as if no debug info
+libtitanhook.lib(titanhook.obj) : warning LNK4099: PDB 'libtitanhook.pdb' was not found with 'libtitanhook.lib(titanhook.obj)' or at 'C:\Users\imjus\Downloads\noway\bin\libtitanhook.pdb'; linking object as if no debug info
+  image.vcxproj -> C:\Users\imjus\Downloads\noway\driver\..\bin\image.sys
